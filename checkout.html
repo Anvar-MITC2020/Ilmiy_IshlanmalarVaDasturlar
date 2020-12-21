@@ -1,0 +1,312 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <title>Checkout</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+  </head>
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row above-header">
+        <div class=" col-lg-4 col-sm-6">
+          <div class="logo " id="logo">
+            <a href="index.html">
+              <img src='img/kanishka.png'/>
+            </a>
+          </div>
+        </div>
+          <div class="offset-4"></div>
+        <ul class="header-right  col-lg-4 col-sm-6 col-xs-12">
+          <li><a href="#"><i class="fa fa-user" ></i> Account</a></li>
+          <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> My Wishlist</a></li>
+          <li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Cart</a></li>
+        </div>
+    <nav>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+            </div>
+        <nav class="navbar-effect">
+          <ul>
+            <li><a href="#">New In </a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Men's</a></li>
+            <li><a href="#">Women's</a></li>
+            <li><a href="#">Children</a></li>
+            <li><a href="#">Cargo Transportation</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+          <hr>
+        </nav>
+        </div>
+</header>
+
+<div class="bg-light">
+
+    <div class="container">
+      <div class="py-5">
+        <h2>Thank you for your order!</h2>
+      </div>
+
+      <div class="row cart-items">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Your cart</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Product name</h6>
+                <img src="./img/product2-small4.jpg" >
+                <p class="text-muted">
+                  Siption estibulum sit amet malesuada elit. Quisque commodo egesta
+</p>
+              </div>
+              <span class="text-muted">$12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Second product</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Third item</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Fourth item</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong>$20</strong>
+            </li>
+          </ul>
+
+        </div>
+      
+              <!--2nd 6 coloumns-->
+      <div class="col-md-6 order-md-1">
+          <h4 class="mb-3">Billing address</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+
+              <div class="col-md-6 mb-3">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div>
+
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country">Region</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>Andijon</option>
+                  <option>Bukhara</option>
+                  <option>Fergana</option>
+                  <option>Jizzakh</option>
+                  <option>Namangan</option>
+                  <option>Samarkand</option>
+                  <option>Sirdaryo</option>
+                  <option>Khiva</option>
+                  <option>Karakalpakistan</option>
+                  <option>Tashkent</option>
+                  </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <h4 class="mb-3">Payment</h4>
+
+            <div class="d-block my-3">
+              <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                <label class="custom-control-label" for="cash">By Cash</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="click-uz">Click</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="payme" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="payme">Payme</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Name on card</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-muted">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="cc-number">Card number</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                <div class="invalid-feedback">
+                  Expiration date required
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-cvv">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Checkout</button>
+          </form>
+        </div>
+      </div>
+</div>
+      <footer>
+<form>
+  <div class="col-lg-12">
+    <div class="offset-hr"></div>
+  <h1>
+    <br>
+      <br>
+  SUBSCRIBE TO OUR NEWSLETTER
+  </h1> 
+</div>
+<div class="col-lg-12">
+<p>Up to adte with promo-codes, sales and much more...</p> 
+</div>
+<div class="row">
+  <div class="offset-2"></div>
+  <input type="email" placeholder="Email Adress" class="placeholder sign-up-btn col-lg-6">
+  <a href="" class="email-submit"><p>></p></a>
+</div>
+
+</form>
+      <nav class="navbar-effect">
+        <ul>
+          <li><a href="#">New In</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Men's</a></li>
+          <li><a href="#">Women's</a></li>
+          <li><a href="#">Children</a></li>
+          <li><a href="#">Cargo Transportation</a></li>
+          <li><a href="#">Sale</a></li>
+        </ul>
+      </nav>
+    <div class="copyright">
+      <p>Copyright 2019, Kanishka</p>
+    </div>
+</footer>
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+</html>
